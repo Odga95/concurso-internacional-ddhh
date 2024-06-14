@@ -1,6 +1,7 @@
 import React,{ useEffect }  from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import docIcon from '../../assets/icon/pdf.png'
 import { Link } from 'react-router-dom';
 
 const BannerDocument = () => {
@@ -21,7 +22,7 @@ const BannerDocument = () => {
   
                     <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
                         <img
-                            src="/src/assets/icon/pdf.png"
+                            src={docIcon}
                             width={64}
                             height={64}
                             alt="icon document"
@@ -42,7 +43,7 @@ const BannerDocument = () => {
 
                     <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
                         <img
-                            src="/src/assets/icon/pdf.png"
+                            src={docIcon}
                             width={64}
                             height={64}
                             alt="icon document"
@@ -60,7 +61,7 @@ const BannerDocument = () => {
                     </Link>
                     <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
                         <img
-                            src="/src/assets/icon/pdf.png"
+                            src={docIcon}
                             width={64}
                             height={64}
                             alt="icon document"
@@ -78,7 +79,7 @@ const BannerDocument = () => {
                     </Link>
                     <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
                         <img
-                            src="/src/assets/icon/pdf.png"
+                            src={docIcon}
                             width={64}
                             height={64}
                             alt="icon document"
