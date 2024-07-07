@@ -1,11 +1,15 @@
-import React,{ useEffect }  from 'react'
+import React, { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import docIcon from '../../assets/icon/pdf.png'
-import { Link } from 'react-router-dom';
+import pdfIcon from '../../assets/icon/pdf.png'
+import docIcon from '../../assets/icon/docx.png'
+import reglamento from '../../assets/docs/REGLAMENTO_OFICIAL_II_CONCURSO_INTERNACIONAL_EN_DERECHO_MÉDICO.pdf'
+import estatuto from '../../assets/docs/ESTATUTO_DE_BARCELONA_2DA_EDICION_COCNURSO_DERECHO_MEDICO.pdf'
+import carta from '../../assets/docs/CARTA_DE_INTENCION_CONCURSO_DERECHO_MEDICO.docx'
+import certificacion from '../../assets/docs/CERTIFICACION_DEL_EQUIPO_CONCURSO_DERECHO_MEDICO.docx'
 
 const BannerDocument = () => {
-    useEffect(()=>{
+    useEffect(() => {
         Aos.init()
     })
 
@@ -13,14 +17,49 @@ const BannerDocument = () => {
         <section className="w-full py-12 md:py-24 lg:py-32">
             <div className="container grid gap-8 px-4 md:px-6 m-auto">
                 <div className="space-y-3 text-center">
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-fuchsia-800">Nuestro equipo de expertos</h2>
-                    <p className="mx-auto max-w-[700px] text-cyan-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                        Conozca a nuestros asesores de bienes raíces, cada uno con una amplia experiencia en el mercado local.
-                    </p>
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-fuchsia-800">Documentos del concurso</h2>
+
                 </div>
                 <div className="flex flex-row justify-center flex-wrap gap-10 align-top items-start">
-  
-                    <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
+
+                    <a href={reglamento} download className="flex flex-col items-center justify-center space-y-4 ">
+                        <img
+                            src={pdfIcon}
+                            width={64}
+                            height={64}
+                            alt="icon document"
+                            data-aos="flip-left"
+                            data-aos-duration="1000"
+                        />
+                        <div className="text-center max-w-40">
+                            <h4 className="text-base font-semibold  text-fuchsia-800">
+                                <span>
+                                    REGLAMENTO OFICIAL II CONCURSO INTERNACIONAL EN DERECHO MÉDICO
+                                </span>
+                            </h4>
+                        </div>
+                    </a>
+
+
+                    <a href={estatuto} download className="flex flex-col items-center justify-center space-y-4 ">
+                        <img
+                            src={pdfIcon}
+                            width={64}
+                            height={64}
+                            alt="icon document"
+                            data-aos="flip-left"
+                            data-aos-duration="1000"
+                        />
+                        <div className="text-center max-w-40">
+                            <h4 className="text-base font-semibold  text-fuchsia-800">
+                                <span>
+                                    ESTATUTO DE BARCELONA 2DA EDICION COCNURSO DERECHO MEDICO
+                                </span>
+                            </h4>
+                        </div>
+                    </a>
+
+                    <a href={carta} download className="flex flex-col items-center justify-center space-y-4 ">
                         <img
                             src={docIcon}
                             width={64}
@@ -32,16 +71,13 @@ const BannerDocument = () => {
                         <div className="text-center max-w-40">
                             <h4 className="text-base font-semibold  text-fuchsia-800">
                                 <span>
-                                    Formulario de inscripción
-                                </span>
-                                <span>
-                                    Formulario de inscripción
+                                    CARTA DE INTENCION CONCURSO DERECHO MEDICO
                                 </span>
                             </h4>
                         </div>
-                    </Link>
+                    </a>
 
-                    <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
+                    <a href={certificacion} download className="flex flex-col items-center justify-center space-y-4 ">
                         <img
                             src={docIcon}
                             width={64}
@@ -49,53 +85,18 @@ const BannerDocument = () => {
                             alt="icon document"
                             data-aos="flip-left"
                             data-aos-duration="1000"
-                            
                         />
                         <div className="text-center max-w-40">
-                            <h4 className="text-base font-semibold  text-fuchsia-900">
-                            <span>
-                                    Formulario de inscripción
-                                </span>
-                            </h4>
-                        </div>
-                    </Link>
-                    <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
-                        <img
-                            src={docIcon}
-                            width={64}
-                            height={64}
-                            alt="icon document"
-                            data-aos="flip-left"
-                            data-aos-duration="1000"
-                            
-                        />
-                        <div className="text-center max-w-40">
-                            <h4 className="text-base font-semibold  text-fuchsia-900">
+                            <h4 className="text-base font-semibold  text-fuchsia-800">
                                 <span>
-                                    Formulario de inscripción
+                                    CERTIFICACION DEL EQUIPO - CONCURSO DERECHO MEDICO
                                 </span>
                             </h4>
                         </div>
-                    </Link>
-                    <Link  href="/home" className="flex flex-col items-center justify-center space-y-4 ">
-                        <img
-                            src={docIcon}
-                            width={64}
-                            height={64}
-                            alt="icon document"
-                            data-aos="flip-left"
-                            data-aos-duration="1000"
-                            
-                        />
-                        <div className="text-center max-w-40">
-                            <h4 className="text-base font-semibold  text-fuchsia-900">
-                                <span>
-                                    Formulario de inscripción
-                                </span>
-                            </h4>
-                        </div>
-                    </Link>
-                    
+                    </a>
+
+
+
                 </div>
             </div>
         </section>

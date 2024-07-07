@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import { Link } from 'react-router-dom';
+import caso2 from '../../assets/docs/CASO_HIPOTETICO_2_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO_2024.pdf'
 import imageBackgrodund from '../../assets/img/bg-imagen.png'
 
 const SectionDocument = () => {
@@ -11,7 +11,7 @@ const SectionDocument = () => {
     })
     return (
         <section className="w-full relative">
-            <div className="w-full h-full absolute top-0 left-0 z-0 bg-fuchsia-900"
+            <div className="w-full h-full absolute top-0 left-0 z-0 bg-fuchsia-950"
                 style={{
                     backgroundImage: `url(${imageBackgrodund})`,
                     backgroundRepeat: 'no-repeat',
@@ -19,7 +19,7 @@ const SectionDocument = () => {
                 }}></div>
 
             <div className="w-full h-full absolute top-0 left-0 z-0 opacity-75" style={{
-                backgroundImage: 'linear-gradient(to bottom, #511057, #2c0930)',
+                backgroundImage: 'linear-gradient(to bottom, #663478, #3D1040)',
                 width: '100%',
                 display: 'flex',
                 justifyContent: 'center',
@@ -34,17 +34,30 @@ const SectionDocument = () => {
                         EL CASO
                     </h2>
                     <p className="text-white md:text-xl" data-aos="fade-up">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus consequuntur porro ab, delectus provident molestiae mollitia sed illum hic neque.
+                        CASO HIPOTETICO 2 CONCURSO INTERNACIONAL EN DERECHO MEDICO 2024
                     </p>
-                    <Link
+                    <a
                         data-aos="zoom-in"
                         data-aos-duration="1000"
-                        href="/home"
+                        href={caso2}
+                        download
                         className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
 
                     >
-                        Descargar Doc
-                    </Link>
+                        CASO
+                    </a>
+                    <br />
+                    <a
+                        target="_blank"
+                        data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        href="https://forms.gle/V2iyxbnhmMHNEpQU7"
+                        download
+                        className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
+
+                    >
+                        REGISTRO
+                    </a>
                 </div>
             </div>
         </section>

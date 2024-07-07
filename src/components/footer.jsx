@@ -14,40 +14,31 @@ const Footer = () => {
 
           </div>
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Sign Up Today</h3>
-            <p className="text-gray-300">Join our mailing list to stay up-to-date with our latest news and updates.</p>
+            <h3 className="text-2xl font-bold">Contacto</h3>
+            <ul>
+              <li>
+                <a href="mailto: cri@colderechomedico.com">cri@colderechomedico.com</a>
+              </li>
+            </ul>
+            <h3 className="text-2xl font-bold">Teléfonos</h3>
+            <ul>
+              <li>
+                <a href="tel:+573106705426 ">+57 3106705426</a>
+
+              </li>
+              <li>
+                <a href="tel:+573106705426 ">+57 3124162816</a>
+
+              </li>
+            </ul>
           </div>
+
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Quick Links</h3>
-            <nav className="grid gap-2">
-              <Link href="/home" className="hover:underline" >
-                About
-              </Link>
-              <Link href="/home" className="hover:underline" >
-                Services
-              </Link>
-              <Link href="/home" className="hover:underline" >
-                Contact
-              </Link>
-              <Link href="/home" className="hover:underline" >
-                Privacy Policy
-              </Link>
-            </nav>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Connect with Us</h3>
+            <h3 className="text-2xl font-bold">Conecta con nosotros</h3>
             <div className="flex space-x-4">
-              <Link href="/home" className="hover:text-gray-400" >
-                <TwitterIcon className="w-6 h-6" />
-              </Link>
-              <Link href="/home" className="hover:text-gray-400" >
+
+              <Link href="https://www.facebook.com/profile.php?id=61561664507623" className="hover:text-gray-400" >
                 <FacebookIcon className="w-6 h-6" />
-              </Link>
-              <Link href="/home" className="hover:text-gray-400" >
-                <InstagramIcon className="w-6 h-6" />
-              </Link>
-              <Link href="/home" className="hover:text-gray-400" >
-                <LinkedinIcon className="w-6 h-6" />
               </Link>
             </div>
           </div>
