@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import icon from '../assets/img/icon-label.png';
 import iconMini from '../assets/img/icon.png';
 import menu from '../assets/icon/menu.png';
 import concursoActual from '../assets/docs/CASO_HIPOTETICO_2_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO_2024.pdf'
+import cancelar from '../assets/icon/cancelar.png'
 
 const Navbar = () => {
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
+
+
     return (
         // <div className=" m-auto fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
         <div className=" m-auto w-full z-50 bg-white shadow-sm">
@@ -23,12 +36,31 @@ const Navbar = () => {
                     </a>
                 </nav>
                 <div className="ml-auto md:hidden">
-                    <button variant="outline" size="icon">
+                    <button variant="outline" size="icon" onClick={toggleMenu}>
                         <img src={menu} alt="menu-icon" className="h-6 w-6" />
                         <span className="sr-only">Toggle navigation</span>
                     </button>
                 </div>
             </div>
+            {isMenuOpen && (
+                <div className='fixed w-full bg-black bg-opacity-75 h-screen top-0'>
+                    <ul className='bg-white h-screen max-w-56 p-3 divide-y z-40'>
+                        <li className=' p-3'>
+                            <a href={concursoActual} download className="text-sm font-medium text-fuchsia-700 hover:underline hover:underline-offset-4" prefetch={false}>
+                                Concurso Actual
+                            </a>
+                        </li>
+                        <li className=' p-3'>
+                            <a href="/concursos-anteriores" className="text-sm font-medium hover:underline hover:underline-offset-4" prefetch={false}>
+                                Concursos Anteriores
+                            </a>
+                        </li>
+                    </ul>
+                    <div className='zindex z-50 fixed right-10 top-10 ' onClick={closeMenu}>
+                        <img src={cancelar} alt="" width={32} height={32} />
+                    </div>
+                </div>
+            )}
         </div>
     )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import pastEvent from '../components/pastEvent/pastEvents';
-const Anteriores = () => {
+import PastEvents from '../components/pastEvent/pastEvents'
+const concursosAnteriores = () => {
     return (
         <div >
-            <pastEvent></pastEvent>
+            <PastEvents></PastEvents>
         </div>
     )
 }
 
-export default Anteriores;
+export default concursosAnteriores;
