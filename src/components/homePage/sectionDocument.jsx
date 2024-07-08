@@ -58,6 +58,18 @@ const SectionDocument = () => {
                     >
                         REGISTRO
                     </a>
+                    <br />
+                    <a
+                        target="_blank"
+                        data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        href="https://forms.gle/V2iyxbnhmMHNEpQU7"
+                        download
+                        className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
+
+                    >
+                        INSCRIPCION DE JUECES
+                    </a>
                 </div>
             </div>
         </section>
