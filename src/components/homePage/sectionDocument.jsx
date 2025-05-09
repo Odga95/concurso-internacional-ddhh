@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import caso2 from '../../assets/docs/CASO_HIPOTETICO_2_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO_2024.pdf'
+import caso2 from '../../assets/docs/CASO_HIPOTETICO_BIODERECHO_2025.pdf'
 import imageBackgrodund from '../../assets/img/bg-imagen.png'
 
 const SectionDocument = () => {
@@ -34,7 +34,7 @@ const SectionDocument = () => {
                         EL CASO
                     </h2>
                     <p className="text-white md:text-xl" data-aos="fade-up">
-                        CASO HIPOTETICO 2 CONCURSO INTERNACIONAL EN DERECHO MEDICO 2024
+                        CASO HIPOTETICO 3 CONCURSO INTERNACIONAL EN DERECHO MEDICO 2025
                     </p>
                     <a
                         data-aos="zoom-in"

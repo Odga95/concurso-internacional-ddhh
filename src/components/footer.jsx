@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 md:mt-12 lg:mt-16 text-center text-sm text-gray-400">
-          &copy; 2024 <a href="https://www.defensoria.gov.co/condiciones-de-uso" className='hover:text-white'>Políticas de privacidad | Términos y condiciones de uso</a>
+          &copy; 2025 <a href="https://www.defensoria.gov.co/condiciones-de-uso" className='hover:text-white'>Políticas de privacidad | Términos y condiciones de uso</a>
         </div>
       </div>
     </footer>

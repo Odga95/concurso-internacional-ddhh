@@ -3,11 +3,11 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import pdfIcon from '../../assets/icon/pdf.png'
 import docIcon from '../../assets/icon/docx.png'
-import reglamento from '../../assets/docs/REGLAMENTO_OFICIAL_II_CONCURSO_INTERNACIONAL_EN_DERECHO_MÉDICO.pdf'
-import estatuto from '../../assets/docs/ESTATUTO_DE_BARCELONA_2DA_EDICION_COCNURSO_DERECHO_MEDICO.pdf'
+
+import reglamento from '../../assets/docs/REGLAMENTO_OFICIAL_III_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO.pdf'
+import estatuto from '../../assets/docs/ESTATUTO_DE_BARCELONA_3DA_EDICION_CONCURSO_DERECHO_MEDICO.pdf'
 import carta from '../../assets/docs/CARTA_DE_INTENCION_CONCURSO_DERECHO_MEDICO.docx'
-import certificacion from '../../assets/docs/CERTIFICACION_DEL_EQUIPO_CONCURSO_DERECHO_MEDICO.docx'
-import respuestas from '../../assets/docs/RESPUESTA-A-LAS-PREGUNTAS-ACLARATORIAS-2-CONCURSO-INTERNACIONAL-EN-DERECHO-MEDICO.pdf'
+
 
 const BannerDocument = () => {
     useEffect(() => {
@@ -35,7 +35,7 @@ const BannerDocument = () => {
                         <div className="text-center max-w-40">
                             <h4 className="text-base font-semibold  text-fuchsia-800">
                                 <span>
-                                    REGLAMENTO OFICIAL II CONCURSO INTERNACIONAL EN DERECHO MÉDICO
+                                    REGLAMENTO OFICIAL III CONCURSO INTERNACIONAL EN DERECHO MÉDICO
                                 </span>
                             </h4>
                         </div>
@@ -54,7 +54,7 @@ const BannerDocument = () => {
                         <div className="text-center max-w-40">
                             <h4 className="text-base font-semibold  text-fuchsia-800">
                                 <span>
-                                    ESTATUTO DE BARCELONA 2DA EDICION COCNURSO DERECHO MEDICO
+                                    ESTATUTO DE BARCELONA 3RA EDICION COCNURSO DERECHO MEDICO
                                 </span>
                             </h4>
                         </div>
@@ -77,45 +77,6 @@ const BannerDocument = () => {
                             </h4>
                         </div>
                     </a>
-
-                    <a href={certificacion} download className="flex flex-col items-center justify-center space-y-4 ">
-                        <img
-                            src={docIcon}
-                            width={64}
-                            height={64}
-                            alt="icon document"
-                            data-aos="flip-left"
-                            data-aos-duration="1000"
-                        />
-                        <div className="text-center max-w-40">
-                            <h4 className="text-base font-semibold  text-fuchsia-800">
-                                <span>
-                                    CERTIFICACION DEL EQUIPO - CONCURSO DERECHO MEDICO
-                                </span>
-                            </h4>
-                        </div>
-                    </a>
-
-                    <a href={respuestas} download className="flex flex-col items-center justify-center space-y-4 ">
-                        <img
-                            src={docIcon}
-                            width={64}
-                            height={64}
-                            alt="icon document"
-                            data-aos="flip-left"
-                            data-aos-duration="1000"
-                        />
-                        <div className="text-center max-w-40">
-                            <h4 className="text-base font-semibold  text-fuchsia-800">
-                                <span>
-                                    RESPUESTAS A LAS PREGUNTAS ACLARATORIAS
-                                </span>
-                            </h4>
-                        </div>
-                    </a>
-
-
-
                 </div>
             </div>
         </section>
