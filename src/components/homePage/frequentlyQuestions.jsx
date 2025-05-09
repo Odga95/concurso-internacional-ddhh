@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
-import cronograma from '../../assets/docs/CALENDARIO_OFICIAL_2DO_CONCURSO_DERECHO_MEDICO.docx'
+import cronograma from '../../assets/docs/CALENDARIO_OFICIAL_3_CONCURSO_DERECHO_INTERNACIONAL_EN_DERECHO_MEDICO_BIOETICA_Y_BIODERECHO.docx'
 import 'aos/dist/aos.css'
 import {
     Accordion,
@@ -42,7 +42,7 @@ const FrequentlyQuestions = () => {
 
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Desde el 7 de Julio de 2024.
+                                    Desde el 8 de mayo de 2025.
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -50,7 +50,7 @@ const FrequentlyQuestions = () => {
                                     Caso hipotético disponible
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 7 de Julio de 2024.
+                                    El 8 de mayo de 2025.
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -58,7 +58,7 @@ const FrequentlyQuestions = () => {
                                     Plazo para presentar aclaraciones sobre el caso hipotético
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Entre el 7 de julio hasta el 30 de agosto de 2024.
+                                    Entre el 8 de mayo hasta el 8 de junio de 2025.
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -66,7 +66,7 @@ const FrequentlyQuestions = () => {
                                     Respuestas a las aclaraciones sobre el caso hipotético
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 10 de septiembre de 2024.
+                                    El 21 de junio de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -74,7 +74,7 @@ const FrequentlyQuestions = () => {
                                     Fin de plazo para la inscripción de los Equipos
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 25 de octubre de 2024
+                                    Hasta el 25 de octubre de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -82,7 +82,7 @@ const FrequentlyQuestions = () => {
                                     Fecha límite para la recepción del Memorial (Sin penalidad)
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 25 de octubre de 2024
+                                    Hasta el 28 de octubre de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -90,7 +90,7 @@ const FrequentlyQuestions = () => {
                                     Último día para enviar el Memorial (con penalidades del envío tardío)
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 26  de octubre de 2024.
+                                    Hasta el 29 de octubre de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -98,7 +98,7 @@ const FrequentlyQuestions = () => {
                                     Fecha límite para la inscripción de Jueces y Publicación de resultados de los Memoriales.
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 28 de octubre de 2024.
+                                    Hasta el 5 de noviembre de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -106,7 +106,7 @@ const FrequentlyQuestions = () => {
                                     Ceremonia de apertura formal - VIRTUAL
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 29 de octubre de 2024.
+                                    El 6 de noviembre de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -114,7 +114,7 @@ const FrequentlyQuestions = () => {
                                     Rondas preliminares - VIRTUALES
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Entre el 29 y el 30 de Octubre de 2024.
+                                    Entre el 6 y el 7 de noviembre de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -122,7 +122,7 @@ const FrequentlyQuestions = () => {
                                     Rondas Semifinales - PRESENCIALES
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 7 de noviembre de 2024.
+                                    El 13 de noviembre de 2025.
                                 </td>
                             </tr>
                             <tr>
@@ -130,7 +130,7 @@ const FrequentlyQuestions = () => {
                                     Ronda Final - PRESENCIAL
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 8 de noviembre de 2024.
+                                    El 14 de noviembre de 2025.
                                 </td>
                             </tr>
 
@@ -166,7 +166,7 @@ const FrequentlyQuestions = () => {
                                     <ArrowIcon className="ml-2 h-5 w-5" />
                                 </AccordionTrigger>
                                 <AccordionContent className="px-6 pt-4 pb-6 text-cyan-600 font-medium">
-                                    II CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO, es una competencia destinada a universidades nacionales e internacionales, el cual, su fin primordial es difundir, ampliar y profundizar el conocimiento del Derecho Médico, la Bioética y el Bioderecho, al entender las nuevas problemáticas y discusiones que se dan en torno a la protección de la salud como obligación de los Estados y de los particulares sobre los ciudadanos, así como, los dilemas que emergen de estas situaciones, en donde, se requiere abordar la realidad a la luz del campo médico, sus avances y desafíos actuales, que permitan un mayor grado de satisfacción y protección a los ciudadanos y en ese sentido comprender estas disciplinas del derecho de forma  integral.
+                                    III CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO, es una competencia destinada a universidades nacionales e internacionales, el cual, su fin primordial es difundir, ampliar y profundizar el conocimiento del Derecho Médico, la Bioética y el Bioderecho, al entender las nuevas problemáticas y discusiones que se dan en torno a la protección de la salud como obligación de los Estados y de los particulares sobre los ciudadanos, así como, los dilemas que emergen de estas situaciones, en donde, se requiere abordar la realidad a la luz del campo médico, sus avances y desafíos actuales, que permitan un mayor grado de satisfacción y protección a los ciudadanos y en ese sentido comprender estas disciplinas del derecho de forma  integral.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="third" data-aos="flip-right">
@@ -220,7 +220,7 @@ const FrequentlyQuestions = () => {
                                     <ArrowIcon className="ml-2 h-5 w-5" />
                                 </AccordionTrigger>
                                 <AccordionContent className="px-6 pt-4 pb-6 text-cyan-600 font-medium">
-                                    La fecha límite para inscribir a tu equipo en el II CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO es el 25 de octubre de 2024.
+                                    La fecha límite para inscribir a tu equipo en el III CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO es el 25 de octubre de 2024.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="tenth" data-aos="flip-right">
@@ -229,7 +229,7 @@ const FrequentlyQuestions = () => {
                                     <ArrowIcon className="ml-2 h-5 w-5" />
                                 </AccordionTrigger>
                                 <AccordionContent className="px-6 pt-4 pb-6 text-cyan-600 font-medium">
-                                    Una vez que hayas completado la inscripción de tu equipo, tendrás la oportunidad de asumir uno de los dos roles dentro del II CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO. Estos roles pueden serán el de representante de las víctimas o representante del Estado en las. El rol específico que ocupará tu equipo será asignado de acuerdo con las disposiciones establecidas en el reglamento del concurso, el cual será comunicado oportunamente.
+                                    Una vez que hayas completado la inscripción de tu equipo, tendrás la oportunidad de asumir uno de los dos roles dentro del III CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO. Estos roles pueden serán el de representante de las víctimas o representante del Estado en las. El rol específico que ocupará tu equipo será asignado de acuerdo con las disposiciones establecidas en el reglamento del concurso, el cual será comunicado oportunamente.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="eleventh" data-aos="flip-right">
@@ -258,7 +258,7 @@ const FrequentlyQuestions = () => {
                                     <ArrowIcon className="ml-2 h-5 w-5" />
                                 </AccordionTrigger>
                                 <AccordionContent className="px-6 pt-4 pb-6 text-cyan-600 font-medium">
-                                    Durante la fase escrita del II CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO, los equipos participantes deben preparar y presentar un memorial que contiene sus argumentos legales y análisis sobre el caso hipotético proporcionado. Este memorial será evaluado por la experta que elaboró el caso y el gerente del concurso. Los equipos deben seguir las pautas y los plazos establecidos para la presentación de acuerdo con el reglamento del Concurso.
+                                    Durante la fase escrita del III CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO, los equipos participantes deben preparar y presentar un memorial que contiene sus argumentos legales y análisis sobre el caso hipotético proporcionado. Este memorial será evaluado por la experta que elaboró el caso y el gerente del concurso. Los equipos deben seguir las pautas y los plazos establecidos para la presentación de acuerdo con el reglamento del Concurso.
 
                                 </AccordionContent>
                             </AccordionItem>
@@ -273,10 +273,10 @@ const FrequentlyQuestions = () => {
                                     <br />
                                     <ul>
                                         <li>
-                                            1.	Del 29 al 30 de octubre, se realizarán las rondas preliminares y será 100% virtuales
+                                            1.	Entre el 6 y el 7 de noviembre de 2025, se realizarán las rondas preliminares y será 100% virtuales
                                         </li>
                                         <li>
-                                            2.	Del 7 al 8 de noviembre se realizaran las rondas semifinales y la final, las cuales serán 100% presenciales en el Hotel Sonesta en Bogotá D.C.
+                                            2.	Del 13 al 14 de noviembre se realizaran las rondas semifinales y la final, las cuales serán 100% presenciales en el Hotel Sonesta en Bogotá D.C.
                                         </li>
                                     </ul>
 

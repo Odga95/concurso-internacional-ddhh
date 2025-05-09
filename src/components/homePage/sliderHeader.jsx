@@ -26,7 +26,7 @@ const SliderHeader = () => {
             <main className="flex-1">
                 <section className="relative w-full h-full overflow-hidden">
                     <div className="relative h-full flex flex-col items-center justify-center text-center text-white">
-                        <img src={banner} alt="" srcset="" />
+                        <img src={banner} alt="" srcSet="" />
                     </div>
                 </section>
             </main>
