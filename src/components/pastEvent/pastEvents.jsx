@@ -1,9 +1,6 @@
 import React from 'react'
 import { galleryImages } from '../../data/galleryData'
 
-// Importar todas las imágenes de una vez
-const images = import.meta.glob('../../assets/img/concursoAnterior/*.jpg')
-
 import doc1 from '../../assets/docs/concursoAnterior/MEMORIAL  EQUIPO N_12.pdf'
 import doc2 from '../../assets/docs/concursoAnterior/MEMORIAL EQUIPO N_10.pdf'
 import doc3 from '../../assets/docs/concursoAnterior/MEMORIAL EQUIPO N_14.pdf'

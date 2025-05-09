@@ -1,5 +1,10 @@
-export const galleryImages = Array.from({ length: 16 }, (_, i) => ({
-  id: i + 1,
-  src: `/src/assets/img/concursoAnterior/${i + 1}.jpg`,
-  alt: `Gallery Image ${i + 1}`
+const images = import.meta.glob('../assets/img/concursoAnterior/*.jpg', {
+  eager: true,
+  import: 'default'
+});
+
+export const galleryImages = Object.entries(images).map(([path, src], index) => ({
+  id: index + 1,
+  src,
+  alt: `Gallery Image ${index + 1}`
 }));
