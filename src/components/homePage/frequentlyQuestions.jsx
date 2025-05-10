@@ -276,7 +276,7 @@ const FrequentlyQuestions = () => {
                                             1.	Entre el 6 y el 7 de noviembre de 2025, se realizarán las rondas preliminares y será 100% virtuales
                                         </li>
                                         <li>
-                                            2.	Del 13 al 14 de noviembre se realizaran las rondas semifinales y la final, las cuales serán 100% presenciales en el Hotel Sonesta en Bogotá D.C.
+                                            2.	Del 13 al 14 de noviembre se realizaran las rondas semifinales y la final, las cuales serán 100% presenciales en el hotel HILTON GARDEN IN - BARRANNQUILLA.
                                         </li>
                                     </ul>
 
