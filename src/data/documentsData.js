@@ -31,7 +31,29 @@ export const memorialsConcurso1 = [
   }
 ];
 
-// Función helper para importar documentos
+export const memorialsConcurso2 = [
+    {
+        id: 1,
+        title: "Memorial Equipo 10 Estado",
+        file: "EQUIPO E-10 (ESTADO).pdf"
+    },
+    {
+        id: 2,
+        title: "Memorial Equipo 11 Estado",
+        file: "EQUIPO E-11 (ESTADO).pdf"
+    },
+    {
+        id: 2,
+        title: "Memorial Equipo 10 Victimas",
+        file: "EQUIPO V-10 (VICTIMAS).pdf"
+    },
+    {
+        id: 2,
+        title: "Memorial Equipo 11 Victimas",
+        file: "EQUIPO V-11 (VICTIMAS).pdf"
+    },
+];
+
 export const getDocumentUrl = (filename) => {
   return new URL(`../assets/concurso-i/docs/${filename}`, import.meta.url).href;
 };
