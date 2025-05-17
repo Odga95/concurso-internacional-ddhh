@@ -101,7 +101,7 @@ const PastEvents = () => {
                                     onError={() => handleImageError(id)}
                                 />
                                 <div className="absolute inset-0 bg-black/50 p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                                    <h3 className="text-lg font-semibold text-white">{name}</h3>
+                                    <h3 className="text-lg font-semibold text-white">II CONCURSO INTERNACIONAL DE DERECHO MÉDICO, BIOÉTICA Y BIODERECHO</h3>
                                 </div>
                             </div>
                         )}
