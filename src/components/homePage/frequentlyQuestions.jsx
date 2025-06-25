@@ -211,7 +211,7 @@ const FrequentlyQuestions = () => {
                                     <ArrowIcon className="ml-2 h-5 w-5" />
                                 </AccordionTrigger>
                                 <AccordionContent className="px-6 pt-4 pb-6 text-cyan-600 font-medium">
-                                    La inscripción al Concurso tiene un valor de 250 USD hasta el 30 de septiembre y de 300 USD hasta el 25 de octubre de 2024.
+                                    La inscripción al Concurso tiene un valor de 250 USD hasta el 30 de septiembre y de 300 USD hasta el 25 de octubre de 2025.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="ninth" data-aos="flip-right">
@@ -220,7 +220,7 @@ const FrequentlyQuestions = () => {
                                     <ArrowIcon className="ml-2 h-5 w-5" />
                                 </AccordionTrigger>
                                 <AccordionContent className="px-6 pt-4 pb-6 text-cyan-600 font-medium">
-                                    La fecha límite para inscribir a tu equipo en el III CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO es el 25 de octubre de 2024.
+                                    La fecha límite para inscribir a tu equipo en el III CONCURSO INTERNACIONAL EN DERECHO MÉDICO, BIOÉTICA Y BIODERECHO es el 25 de octubre de 2025.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="tenth" data-aos="flip-right">
