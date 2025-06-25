@@ -66,7 +66,7 @@ const FrequentlyQuestions = () => {
                                     Respuestas a las aclaraciones sobre el caso hipotético
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 21 de junio de 2025.
+                                    El 21 de julio de 2025.
                                 </td>
                             </tr>
                             <tr>
