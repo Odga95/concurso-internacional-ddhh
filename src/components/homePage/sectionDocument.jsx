@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import caso2 from '../../assets/docs/CASO_HIPOTETICO_BIODERECHO_2025.pdf'
+import respuestasAclaratorias from '../../assets/docs/RESPUESTA_A_LAS_PREGUNTAS_ACLARATORIAS_3_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO.pdf'
 import imageBackgrodund from '../../assets/img/bg-imagen.png'
 
 const SectionDocument = () => {
@@ -73,6 +74,16 @@ const SectionDocument = () => {
                         className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border-white border"
                     >
                         INSCRIPCION DE JUECES
+                    </a>
+                    <br />
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        href={respuestasAclaratorias}
+                        download
+                        className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border-white border"
+                    >
+                        RESPUESTA A LAS PREGNTAS ACLARATORIAS
                     </a>
                 </div>
             </div>
