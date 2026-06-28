@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import icon from '../assets/img/icon-label.png';
 import iconMini from '../assets/img/icon.png';
 import menu from '../assets/icon/menu.png';
-import concursoActual from '../assets/docs/CASO_HIPOTETICO_BIODERECHO_2025.pdf'
+import concursoActual from '../assets/docs/CASO_IV_CONCURSO_INTERNACIONAL_DERECHO_MEDICO,_BIOETICA_Y_BIODERECHO.pdf'
 import cancelar from '../assets/icon/cancelar.png'
 
 const Navbar = () => {

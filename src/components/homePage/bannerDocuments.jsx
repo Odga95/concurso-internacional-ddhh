@@ -4,9 +4,9 @@ import 'aos/dist/aos.css'
 import pdfIcon from '../../assets/icon/pdf.png'
 import docIcon from '../../assets/icon/docx.png'
 
-import reglamento from '../../assets/docs/REGLAMENTO_OFICIAL_III_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO.pdf'
-import estatuto from '../../assets/docs/ESTATUTO_DE_BARCELONA_3DA_EDICION_CONCURSO_DERECHO_MEDICO.pdf'
-import carta from '../../assets/docs/CARTA_DE_INTENCION_CONCURSO_DERECHO_MEDICO.docx'
+import reglamento from '../../assets/docs/REGLAMENTO_OFICIAL_IV_CONCURSO_INTERNACIONAL_EN_DERECHO_MÉDICO.pdf'
+import estatuto from '../../assets/docs/ESTATUTO_DE_BARCELONA_4TA_EDICION_CONCURSO_DERECHO_MEDICO.pdf'
+// import carta from '../../assets/docs/CARTA_DE_INTENCION_CONCURSO_DERECHO_MEDICO.docx'
 
 
 const BannerDocument = () => {
@@ -35,7 +35,7 @@ const BannerDocument = () => {
                         <div className="text-center max-w-40">
                             <h4 className="text-base font-semibold  text-fuchsia-800">
                                 <span>
-                                    REGLAMENTO OFICIAL III CONCURSO INTERNACIONAL EN DERECHO MÉDICO
+                                    REGLAMENTO OFICIAL IV CONCURSO INTERNACIONAL EN DERECHO MÉDICO
                                 </span>
                             </h4>
                         </div>
@@ -54,13 +54,13 @@ const BannerDocument = () => {
                         <div className="text-center max-w-40">
                             <h4 className="text-base font-semibold  text-fuchsia-800">
                                 <span>
-                                    ESTATUTO DE BARCELONA 3RA EDICION COCNURSO DERECHO MEDICO
+                                    ESTATUTO DE BARCELONA 4TA EDICION CONCURSO DERECHO MEDICO
                                 </span>
                             </h4>
                         </div>
                     </a>
 
-                    <a href={carta} download className="flex flex-col items-center justify-center space-y-4 ">
+                    {/* <a href={carta} download className="flex flex-col items-center justify-center space-y-4 ">
                         <img
                             src={docIcon}
                             width={64}
@@ -76,7 +76,7 @@ const BannerDocument = () => {
                                 </span>
                             </h4>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </section>

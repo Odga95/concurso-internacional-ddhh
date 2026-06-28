@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
-import cronograma from '../../assets/docs/CALENDARIO_OFICIAL_3_CONCURSO_DERECHO_INTERNACIONAL_EN_DERECHO_MEDICO_BIOETICA_Y_BIODERECHO.docx'
+import cronograma from '../../assets/docs/CALENDARIO_OFICIAL_4_CONCURSO_DERECHO_MEDICO_2026.pdf'
 import 'aos/dist/aos.css'
 import {
     Accordion,
@@ -42,7 +42,7 @@ const FrequentlyQuestions = () => {
 
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Desde el 8 de mayo de 2025.
+                                    Desde el 9 de junio de 2026.
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -50,7 +50,7 @@ const FrequentlyQuestions = () => {
                                     Caso hipotético disponible
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 8 de mayo de 2025.
+                                    El 9 de junio de 2026.
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -58,7 +58,7 @@ const FrequentlyQuestions = () => {
                                     Plazo para presentar aclaraciones sobre el caso hipotético
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Entre el 8 de mayo hasta el 8 de junio de 2025.
+                                    Entre el 9 de junio hasta el 30 de julio de 2026.
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -66,7 +66,7 @@ const FrequentlyQuestions = () => {
                                     Respuestas a las aclaraciones sobre el caso hipotético
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 21 de julio de 2025.
+                                    El 5 de agosto de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -74,7 +74,7 @@ const FrequentlyQuestions = () => {
                                     Fin de plazo para la inscripción de los Equipos
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 25 de octubre de 2025.
+                                    Hasta el 17 de octubre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -82,7 +82,7 @@ const FrequentlyQuestions = () => {
                                     Fecha límite para la recepción del Memorial (Sin penalidad)
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 28 de octubre de 2025.
+                                    Hasta el 17 de octubre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -90,7 +90,7 @@ const FrequentlyQuestions = () => {
                                     Último día para enviar el Memorial (con penalidades del envío tardío)
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 29 de octubre de 2025.
+                                    Hasta el 18 de octubre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -98,23 +98,23 @@ const FrequentlyQuestions = () => {
                                     Fecha límite para la inscripción de Jueces y Publicación de resultados de los Memoriales.
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 5 de noviembre de 2025.
+                                    Hasta el 21 de Octubre de 2026.
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" className="px-6 py-4 font-medium text-fuchsia-900   dark:text-whit">
-                                    Ceremonia de apertura formal - VIRTUAL
+                                    Ceremonia de apertura formal - PRESENCIAL
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 6 de noviembre de 2025.
+                                    El 21 de Octubre de 2026.
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" className="px-6 py-4 font-medium text-fuchsia-900   dark:text-whit">
-                                    Rondas preliminares - VIRTUALES
+                                    Rondas preliminares - PRESENCIALES
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Entre el 6 y el 7 de noviembre de 2025.
+                                    El 21 de Octubre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -122,15 +122,15 @@ const FrequentlyQuestions = () => {
                                     Rondas Semifinales - PRESENCIALES
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 13 de noviembre de 2025.
+                                    El 22 de Octubre de 2026.
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" className="px-6 py-4 font-medium text-fuchsia-900   dark:text-whit">
-                                    Ronda Final - PRESENCIAL
+                                    Ronda Final
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 14 de noviembre de 2025.
+                                    El 23 de Octubre de 2026.
                                 </td>
                             </tr>
 

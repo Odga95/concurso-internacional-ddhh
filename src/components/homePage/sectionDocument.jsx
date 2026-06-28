@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import caso2 from '../../assets/docs/CASO_HIPOTETICO_BIODERECHO_2025.pdf'
-import respuestasAclaratorias from '../../assets/docs/RESPUESTA_A_LAS_PREGUNTAS_ACLARATORIAS_3_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO.pdf'
+import caso2 from '../../assets/docs/CASO_IV_CONCURSO_INTERNACIONAL_DERECHO_MEDICO,_BIOETICA_Y_BIODERECHO.pdf'
+// import respuestasAclaratorias from '../../assets/docs/RESPUESTA_A_LAS_PREGUNTAS_ACLARATORIAS_3_CONCURSO_INTERNACIONAL_EN_DERECHO_MEDICO.pdf'
 import imageBackgrodund from '../../assets/img/bg-imagen.png'
 
 const SectionDocument = () => {
@@ -42,7 +42,7 @@ const SectionDocument = () => {
                         EL CASO
                     </h2>
                     <p className="text-white md:text-xl" data-aos="fade-up">
-                        CASO HIPOTETICO 3 CONCURSO INTERNACIONAL EN DERECHO MEDICO 2025
+                        CASO HIPOTETICO 4 CONCURSO INTERNACIONAL EN DERECHO MEDICO 2026
                     </p>
                     <a
                         data-aos="zoom-in"
@@ -58,7 +58,7 @@ const SectionDocument = () => {
                         target="_blank"
                         data-aos="zoom-in"
                         data-aos-duration="1000"
-                        href="https://forms.gle/Zr7ZxxcVheDmTbGj8"
+                        href="https://forms.gle/9vmxiQb3se49m5EM7"
                         download
                         className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border-white border"
                     >
@@ -69,14 +69,14 @@ const SectionDocument = () => {
                         target="_blank"
                         data-aos="zoom-in"
                         data-aos-duration="1000"
-                        href="https://forms.gle/dduzH9saPm4QkHPh7"
+                        href="https://docs.google.com/forms/d/1wSA5eVRb_a6XArtMeGIScN_pKDZ69XRYEoTbCcLqZlQ/edit"
                         download
                         className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border-white border"
                     >
                         INSCRIPCION DE JUECES
                     </a>
                     <br />
-                    <a
+                    {/* <a
                         data-aos="zoom-in"
                         data-aos-duration="1000"
                         href={respuestasAclaratorias}
@@ -84,10 +84,10 @@ const SectionDocument = () => {
                         className="inline-flex h-10 items-center justify-center rounded-md bg-cyan-500 px-8 text-sm font-bold text-white shadow transition-colors hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border-white border"
                     >
                         RESPUESTA A LAS PREGNTAS ACLARATORIAS
-                    </a>
+                    </a> */}
                 </div>
             </div>
-        </section>
+        </section>  
     )
 }
 
