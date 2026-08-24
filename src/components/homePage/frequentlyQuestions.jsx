@@ -58,7 +58,7 @@ const FrequentlyQuestions = () => {
                                     Plazo para presentar aclaraciones sobre el caso hipotético
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Entre el 9 de junio hasta el 30 de julio de 2026.
+                                    Entre el 9 de junio hasta el 12 de septiembre de 2026.
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -66,7 +66,7 @@ const FrequentlyQuestions = () => {
                                     Respuestas a las aclaraciones sobre el caso hipotético
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 5 de agosto de 2026.
+                                    El 19 de septiembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -74,7 +74,7 @@ const FrequentlyQuestions = () => {
                                     Fin de plazo para la inscripción de los Equipos
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 17 de octubre de 2026.
+                                    Hasta el 15 de Noviembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -82,7 +82,7 @@ const FrequentlyQuestions = () => {
                                     Fecha límite para la recepción del Memorial (Sin penalidad)
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 17 de octubre de 2026.
+                                    Hasta el 15 de Noviembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -90,7 +90,7 @@ const FrequentlyQuestions = () => {
                                     Último día para enviar el Memorial (con penalidades del envío tardío)
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 18 de octubre de 2026.
+                                    Hasta el 16 de Noviembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -98,7 +98,7 @@ const FrequentlyQuestions = () => {
                                     Fecha límite para la inscripción de Jueces y Publicación de resultados de los Memoriales.
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    Hasta el 21 de Octubre de 2026.
+                                    Hasta el 25 de Noviembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -106,7 +106,7 @@ const FrequentlyQuestions = () => {
                                     Ceremonia de apertura formal - PRESENCIAL
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 21 de Octubre de 2026.
+                                    El 26 de Noviembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -114,7 +114,7 @@ const FrequentlyQuestions = () => {
                                     Rondas preliminares - PRESENCIALES
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 21 de Octubre de 2026.
+                                    El 26 de Noviembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -122,7 +122,7 @@ const FrequentlyQuestions = () => {
                                     Rondas Semifinales - PRESENCIALES
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 22 de Octubre de 2026.
+                                    El 26 de Noviembre de 2026.
                                 </td>
                             </tr>
                             <tr>
@@ -130,7 +130,7 @@ const FrequentlyQuestions = () => {
                                     Ronda Final
                                 </th>
                                 <td className="px-6 py-4 text-cyan-600">
-                                    El 23 de Octubre de 2026.
+                                    El 27 de Noviembre de 2026.
                                 </td>
                             </tr>
 
